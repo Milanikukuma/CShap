@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EzCheckme.LogInPage"
+             Title="">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to the Log In Page!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
+        <Entry 
+            Placeholder="Username" 
+            x:Name="usernameEntry"
+            Margin="20,10" />
+        
+       
+
+        <Entry 
+            Placeholder="Password" 
+            IsPassword="True" 
+            x:Name="passwordEntry"
+            Margin="20,10" />
+
+        <Button Text="Log In"
+         Clicked="OnEnterButtonClicked"
+         BackgroundColor="#3498db"
+         TextColor="White"/>
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
