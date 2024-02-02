@@ -22,11 +22,7 @@
             Margin="20,10" />
 
 
-        <Entry 
-    Placeholder="Password" 
-    IsPassword="True" 
-    x:Name="passwordEntry"
-    Margin="20,10" />
+
 
         <Button Text="Enter"
         Clicked="OnEnterButtonClicked"
